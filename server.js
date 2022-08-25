@@ -15,6 +15,3 @@ app.use(cors())
 app.use('/app', routesUrls)
 
 
-app.get('/', req, res=> {
-    res.setEncoding('hello')
-});

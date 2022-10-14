@@ -15,6 +15,4 @@ app.use(cors())
 app.use('/app', routesUrls)
 app.listen(process.env.PORT);
 
-app.get('/',(req, res)=>{
-    res.send('Hello my server is working');
-})
+

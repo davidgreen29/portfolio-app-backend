@@ -13,7 +13,7 @@ mongoose.connect(process.env.DATABASE_ACCESS)
 app.use(express.json())
 app.use(cors())
 app.use('/app', routesUrls)
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT);
 
 app.get('/',(req, res)=>{
     res.send('Hello my server is working');
